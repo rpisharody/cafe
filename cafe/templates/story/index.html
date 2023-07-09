@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% for story in stories %}
+    <div class="story">
+    {{story.upvotes}}
+    <a href="{{ story.link }}">{{ story.title }}</a>
+    {% for tag in story.tags %}
+        <span class="tag">{{ tag }}</span>
+    {% endfor %}
+    <br />
+    authored by {{ story.author }} {{ story.timestamp }}
+    <br />
+    </div>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,46 @@
+html {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: #b77a4e;
+}
+
+body {
+    max-width: 75%;
+    margin: 1rem auto;
+    background: #eee;
+    padding: 0.5rem;
+    border: medium solid #ab4f0d;
+}
+
+h1.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:chocolate;
+    padding: 0.25em 0 0 0;
+    margin: 0em;
+    text-align: center;
+}
+
+hr.logo {
+    color: chocolate;
+    max-width: 75%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(210, 105, 30, 0.75), rgba(0, 0, 0, 0));
+
+}
+
+/* Coffee Emoji: ☕ */
+
+.story { padding: 0.75rem; }
+.story a {
+    color: #ab4f0d;
+    font-weight: bold;
+}
+.story .tag {
+    background-color: #f8f8c9;
+    border: thin solid black;
+    border-radius: 0.4em;
+    padding: 0.1em 0.1em 0.1em 0.1em;
+    font-size: small;
+    font-weight: 100;
+    color: #625d5c;
+}
